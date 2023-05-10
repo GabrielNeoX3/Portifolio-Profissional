@@ -22,6 +22,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: sticky;
 }
 
 header h1 {
