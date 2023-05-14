@@ -751,6 +751,11 @@ footer {
   border: 1px solid #cc181833;
 }
 
+.footer_sociais li a{
+  text-decoration: none;
+  color: #dc3545;
+}
+
 .footer_sociais li i {
   padding: 30px;
   font-size: 1.5rem;
