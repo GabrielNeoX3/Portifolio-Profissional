@@ -105,3 +105,14 @@
     }
   }
   
+  @media (max-width: 500px) {
+    .projects ul{
+        gap: 5px;
+    }
+    .project_navegacao{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
