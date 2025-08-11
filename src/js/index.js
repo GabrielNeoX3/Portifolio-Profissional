@@ -108,17 +108,19 @@ function showLista(lista, buttom = "all"){
 
   if(buttom == 'design'){
       lista[0].classList.add('ativo');
-      lista[3].classList.add('ativo');
+      lista[1].classList.add('ativo');
+      lista[5].classList.add('ativo');
   }
   if(buttom == 'game'){
-      lista[1].classList.add('ativo');
+      lista[2].classList.add('ativo');
   }
 
   if(buttom == 'website'){
-      lista[0].classList.add('ativo');
-      lista[2].classList.add('ativo');
       lista[3].classList.add('ativo');
       lista[4].classList.add('ativo');
+      lista[6].classList.add('ativo');
+      lista[7].classList.add('ativo');
+      lista[8].classList.add('ativo');
   }
 
   if(buttom == 'all'){
@@ -130,6 +132,7 @@ function showLista(lista, buttom = "all"){
       lista[5].classList.add('ativo');
       lista[6].classList.add('ativo');
       lista[7].classList.add('ativo');
+      lista[8].classList.add('ativo');
   }
 }
 
